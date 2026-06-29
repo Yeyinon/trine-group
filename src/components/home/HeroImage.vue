@@ -7,7 +7,7 @@ import { Users, Award } from "lucide-vue-next"
     <div class="relative flex justify-center">
 
         <img :src="heroImage" alt="Dieu Un et Trine Group"
-            class="h-[550px] w-full max-w-lg rounded-3xl object-cover shadow-2xl">
+            class="h-[550px] w-full max-w-lg rounded-3xl object-cover shadow-2xl ">
 
         <div class="absolute -left-6 top-10 rounded-2xl bg-white p-4 shadow-xl">
 

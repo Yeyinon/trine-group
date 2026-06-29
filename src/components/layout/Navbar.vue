@@ -5,7 +5,7 @@
         Dieu Un et Trine
       </h1>
 
-      <div class="flex gap-6">
+      <div class="hidden md:flex gap-8">
         <RouterLink to="/">Accueil</RouterLink>
         <RouterLink to="/services">Services</RouterLink>
         <RouterLink to="/products">Produits</RouterLink>

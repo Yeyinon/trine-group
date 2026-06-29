@@ -16,14 +16,14 @@ const qualities = [
 
         </span>
 
-        <h1 class="mt-6 text-4xl md:text-6xl font-extrabold leading-tight">
+        <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight">
 
             Votre partenaire de confiance
             pour des solutions professionnelles.
 
         </h1>
 
-        <p class="mt-6 text-lg text-slate-300 leading-relaxed">
+        <p class="mt-6 text-base sm:text-lg text-slate-300 leading-relaxed">
 
             Nous accompagnons les entreprises avec des solutions innovantes,
             des services de qualité et une équipe engagée.
@@ -33,18 +33,18 @@ const qualities = [
         <div class="mt-10 flex flex-col gap-4 sm:flex-row">
 
             <button
-                class="rounded-xl bg-blue-600 px-8 py-4 font-semibold transition duration-300 hover:bg-blue-700 hover:scale-105">
+                class="w-full sm:w-auto rounded-xl bg-blue-600 px-8 py-4 font-semibold transition duration-300 hover:bg-blue-700 hover:scale-105">
                 Découvrir nos services
             </button>
 
             <button
-                class="rounded-xl border border-slate-600 px-8 py-4 font-semibold transition duration-300 hover:bg-slate-800">
+                class="w-full sm:w-auto rounded-xl border border-slate-600 px-8 py-4 font-semibold transition duration-300 hover:bg-slate-800">
                 Nous contacter
             </button>
 
         </div>
 
-        <div class="mt-10 space-y-4">
+        <div class="mt-8 space-y-4">
 
             <div v-for="quality in qualities" :key="quality" class="flex items-center gap-3">
 

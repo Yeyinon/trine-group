@@ -7,7 +7,7 @@
 
     <div class="max-w-7xl mx-auto px-6">
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 min-h-screen">
+      <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 min-h-[90vh]">
 
         <HeroContent />
 

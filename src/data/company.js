@@ -1,22 +1,26 @@
+
 export const company = {
   name: "Dieu Un et Trine Group SARL",
 
-  slogan: "Votre partenaire de confiance.",
+  slogan: "Votre partenaire de confiance dans l'import-export.",
 
-  phone: "+229 XX XX XX XX",
+  hero: {
+    title: "...",
+    description: "...",
+  },
 
-  email: "contact@dieuunettrine.com",
+  about: {
 
-  address: "Cotonou, Bénin",
+    title: "Votre partenaire logistique de confiance",
 
-  services: [
-    {
-      title: "Conseil",
-      description: "..."
-    },
-    {
-      title: "Import Export",
-      description: "..."
-    }
-  ]
+    description:
+      "Dieu Un et Trine Group SARL accompagne les entreprises et les particuliers dans leurs opérations d'importation et d'exportation. Grâce à notre expertise, notre réseau international et notre maîtrise de la chaîne logistique, nous proposons des solutions fiables, rapides et adaptées aux besoins de nos clients.",
+
+  },
+
+  contact: {
+    phone: "...",
+    email: "...",
+    address: "...",
+  },
 }
